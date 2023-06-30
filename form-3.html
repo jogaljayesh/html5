@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form</title>
+</head>
+<body>
+
+<form>
+	<fieldset>
+		<legend>HTML 5 <form></form></legend>
+		<label for="name">Name:</label>
+		<input type="text" name="name" id="name" required="" placeholder="Enter Name" autofocus="" maxlength="20">
+		<br>
+		<br>
+
+		<label for="color">Color:</label>
+		<input type="color" name="color" id="color" value="#0000ff">
+		<br>
+		<br>
+
+		<label for="hobbies">Hobbies:</label>
+		<input type="checkbox" name="hobbies" id="hobbies" checked>Dancing
+		<input type="checkbox" name="hobbies" id="hobbies">Singing
+		<br>
+		<br>
+
+		<label for="radio button">Radio Button:</label>
+		<input type="radio" name="gender" id="radio button" checked >Male
+		<input type="radio" name="gender" id="radio button">Female
+		<input type="radio" name="gender" id="radio button">Other
+		<br>
+		<br>
+
+		<label for="number">Number:</label>
+		<input type="tel" name="number" id="number" required="" placeholder="Number" autofocus="">
+		<br>
+		<br>
+
+		Range:
+		<input type="range" name="range" min="0" max="200" value="150">
+		<br>
+		<br>
+
+		<label for="age">Age:</label>
+		<input type="number" name="number" id="age" min="1" max="20">
+		<br>
+		<br>
+
+		<label for="search-box">Search</label>
+		<input type="text" list="search" id="search-box" placeholder="Search">
+		<datalist id="search">
+			<option value="Apple">
+			<option value="Mango">
+			<option value="Banana">
+			<option value="watermelon">
+			<option value="musckmelon">
+		</datalist>
+		<br>
+		<br>
+		
+		<input type="submit">
+		<input type="reset">
+	</fieldset>
+</form>
+
+</body>
+</html>
