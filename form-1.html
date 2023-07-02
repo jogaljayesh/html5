@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form</title>
+	<style type="text/css">
+		td {
+			font-weight: bold;
+		}
+		tr td {
+			padding: 10px;
+		}
+		table {
+			background: Cyan;
+		}
+	</style>
+</head>
+<body>
+
+<h2 align="center">Project Management</h2>
+<form>
+	<table align="center">
+		<tr>
+			<td>Project Name</td>
+			<td><input type="text" name="Project name" id="PName" placeholder="project name"></td>
+		</tr>
+
+		<tr>
+				<td>Assigned to</td>
+			<td>
+				<select name="person" id="projectAssigned">
+					<option value="Er Merry Petision">Er Merry Petision</option>
+					<option value="Er Deepak Bhusan">Er Deepak Bhusan</option>
+					<option value="Er Robert Watson">Er Robert Watson</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td>Start Date</td>
+			<td><input type="date" name="Start Date" id="SDate"></td>
+		</tr>
+		<tr>
+			<td>End Date</td>
+			<td><input type="date" name="End Date" id="EDate"></td>
+		</tr>
+
+		<tr>
+			<td>priority</td>
+			<td>
+				<input type="radio" name="Priority" id="high" value="High">High
+				<input type="radio" name="Priority" id="average" value="Average">Average
+				<input type="radio" name="Priority" id="low" value="Low">Low
+			</td>
+		</tr>
+		<tr>
+			<td>Description</td>
+			<td>
+				<textarea name="Description"></textarea>
+			</td>
+		</tr>
+		<tr align="center">
+			<td>
+				<button type="submit">Submit</button>
+			</td>
+			<td>
+				<button type="reset" style="margin-right: 150px;">Reset</button>
+			</td>
+		</tr>
+
+	</table>
+</form>
+</body>
+</html>
